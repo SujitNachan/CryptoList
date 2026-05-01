@@ -72,5 +72,11 @@ Ensure your target is set to an iPhone simulator or device.
 Build and Run (Cmd + R).
 
 📡 API Endpoint
+
 Data is fetched from the following endpoint:
+
 [https://api.jsonbin.io/v3/b/69f046e8856a6821897f1741](https://api.jsonbin.io/v3/b/69f046e8856a6821897f1741)
+
+
+
+<img width="350" height="750" alt="Simulator Screenshot - iPhone 16 Pro - 2026-05-01 at 19 51 26" src="https://github.com/user-attachments/assets/05ad2396-4666-4152-b9e6-124d0dc6320d" />

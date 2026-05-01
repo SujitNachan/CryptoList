@@ -15,6 +15,26 @@
 		61BB23BE775596A45D86BEAF /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D774080CDC919DFD4194D76 /* CoinRow.swift */; };
 		66CA4CE22FA4B5FE00C112DB /* CoinEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CE12FA4B5F400C112DB /* CoinEntity.swift */; };
 		66CA4CE42FA4C96300C112DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CE32FA4C95A00C112DB /* Constants.swift */; };
+		66CA4CE62FA4F04100C112DB /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 66CA4CE52FA4F04100C112DB /* Development.xcconfig */; };
+		66CA4CE82FA4F06000C112DB /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 66CA4CE72FA4F06000C112DB /* Production.xcconfig */; };
+		66CA4CEB2FA4F0FA00C112DB /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CEA2FA4F0F400C112DB /* AppConfig.swift */; };
+		66CA4CEE2FA4F16600C112DB /* AppDependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8D7DE4D4A7A3469937488D /* AppDependencyContainer.swift */; };
+		66CA4CEF2FA4F16600C112DB /* CryptoCoinsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968E0EA1BC2D090814DA7410 /* CryptoCoinsApp.swift */; };
+		66CA4CF02FA4F16600C112DB /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA51D3513F2AE67F7FF201F /* DatabaseService.swift */; };
+		66CA4CF12FA4F16600C112DB /* CoinEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CE12FA4B5F400C112DB /* CoinEntity.swift */; };
+		66CA4CF22FA4F16600C112DB /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87718E73A28FF09224C3B14 /* APIClient.swift */; };
+		66CA4CF32FA4F16600C112DB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CE32FA4C95A00C112DB /* Constants.swift */; };
+		66CA4CF42FA4F16600C112DB /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66CA4CEA2FA4F0F400C112DB /* AppConfig.swift */; };
+		66CA4CF52FA4F16600C112DB /* CoinRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B1F9C8DC622E148794EFB1 /* CoinRepository.swift */; };
+		66CA4CF62FA4F16600C112DB /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8708BEBD29A893604BFD51F0 /* Coin.swift */; };
+		66CA4CF72FA4F16600C112DB /* CoinUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E404CD039D0A639A399DEAB6 /* CoinUseCases.swift */; };
+		66CA4CF82FA4F16600C112DB /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A78C950754D952B67BAA33 /* CoinListView.swift */; };
+		66CA4CF92FA4F16600C112DB /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D774080CDC919DFD4194D76 /* CoinRow.swift */; };
+		66CA4CFA2FA4F16600C112DB /* FilterViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A426D8459CEAFAD766BC1 /* FilterViews.swift */; };
+		66CA4CFB2FA4F16600C112DB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D489592BCB7763A7D72048 /* SearchBar.swift */; };
+		66CA4CFC2FA4F16600C112DB /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F28C53C0373DF79933B5094 /* CoinListViewModel.swift */; };
+		66CA4CFF2FA4F16600C112DB /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 66CA4CE72FA4F06000C112DB /* Production.xcconfig */; };
+		66CA4D002FA4F16600C112DB /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 66CA4CE52FA4F04100C112DB /* Development.xcconfig */; };
 		9E2793E1179D5CCA5ACD5679 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87718E73A28FF09224C3B14 /* APIClient.swift */; };
 		BE6D717698CBD77240B4D69F /* CoinListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F28C53C0373DF79933B5094 /* CoinListViewModel.swift */; };
 		D9521EED6B673AE1265C7AD4 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D489592BCB7763A7D72048 /* SearchBar.swift */; };
@@ -31,6 +51,12 @@
 		2F28C53C0373DF79933B5094 /* CoinListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CoinListViewModel.swift; path = Presentation/ViewModels/CoinListViewModel.swift; sourceTree = "<group>"; };
 		66CA4CE12FA4B5F400C112DB /* CoinEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinEntity.swift; sourceTree = "<group>"; };
 		66CA4CE32FA4C95A00C112DB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		66CA4CE52FA4F04100C112DB /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		66CA4CE72FA4F06000C112DB /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		66CA4CE92FA4F0D600C112DB /* CryptoCoins-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CryptoCoins-Info.plist"; sourceTree = "<group>"; };
+		66CA4CEA2FA4F0F400C112DB /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		66CA4D042FA4F16600C112DB /* CryptoCoins-Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CryptoCoins-Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66CA4D052FA4F16600C112DB /* CryptoCoins copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CryptoCoins copy-Info.plist"; path = "/Users/harshalchemate/Downloads/CryptoCoinsFixed/CryptoCoins copy-Info.plist"; sourceTree = "<absolute>"; };
 		8708BEBD29A893604BFD51F0 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Coin.swift; path = Domain/Models/Coin.swift; sourceTree = "<group>"; };
 		968E0EA1BC2D090814DA7410 /* CryptoCoinsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CryptoCoinsApp.swift; path = App/CryptoCoinsApp.swift; sourceTree = "<group>"; };
 		9E0A426D8459CEAFAD766BC1 /* FilterViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FilterViews.swift; path = Presentation/Components/FilterViews.swift; sourceTree = "<group>"; };
@@ -43,6 +69,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		29B2D46AA747A59804D46E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66CA4CFD2FA4F16600C112DB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -92,11 +125,13 @@
 		5928955287B8089ED2177128 = {
 			isa = PBXGroup;
 			children = (
+				66CA4CE92FA4F0D600C112DB /* CryptoCoins-Info.plist */,
 				C2E0A4CA48C8DE8CE6F922AF /* App */,
 				A312F61C33AE8923FC4C3A7D /* Data */,
 				057B7BC171F767190FA8A917 /* Domain */,
 				830C7E58E5CB3D54E02C41FA /* Presentation */,
 				BF7A2D27A78D590BDEF15AF2 /* Products */,
+				66CA4D052FA4F16600C112DB /* CryptoCoins copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				CE29BE284D8E7CDFA377A125 /* CryptoCoins.app */,
+				66CA4D042FA4F16600C112DB /* CryptoCoins-Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,9 +182,12 @@
 		C2E0A4CA48C8DE8CE6F922AF /* App */ = {
 			isa = PBXGroup;
 			children = (
+				66CA4CEA2FA4F0F400C112DB /* AppConfig.swift */,
 				66CA4CE32FA4C95A00C112DB /* Constants.swift */,
 				AE8D7DE4D4A7A3469937488D /* AppDependencyContainer.swift */,
 				968E0EA1BC2D090814DA7410 /* CryptoCoinsApp.swift */,
+				66CA4CE52FA4F04100C112DB /* Development.xcconfig */,
+				66CA4CE72FA4F06000C112DB /* Production.xcconfig */,
 			);
 			name = App;
 			sourceTree = "<group>";
@@ -197,6 +236,23 @@
 			productReference = CE29BE284D8E7CDFA377A125 /* CryptoCoins.app */;
 			productType = "com.apple.product-type.application";
 		};
+		66CA4CEC2FA4F16600C112DB /* CryptoCoins-Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66CA4D012FA4F16600C112DB /* Build configuration list for PBXNativeTarget "CryptoCoins-Dev" */;
+			buildPhases = (
+				66CA4CED2FA4F16600C112DB /* Sources */,
+				66CA4CFD2FA4F16600C112DB /* Frameworks */,
+				66CA4CFE2FA4F16600C112DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CryptoCoins-Dev";
+			productName = CryptoCoins;
+			productReference = 66CA4D042FA4F16600C112DB /* CryptoCoins-Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,21 +281,55 @@
 			projectRoot = "";
 			targets = (
 				42AEFBAE01D2DFD981F7DA7D /* CryptoCoins */,
+				66CA4CEC2FA4F16600C112DB /* CryptoCoins-Dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		66CA4CFE2FA4F16600C112DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CA4CFF2FA4F16600C112DB /* Production.xcconfig in Resources */,
+				66CA4D002FA4F16600C112DB /* Development.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		66F8606E9F0A136E2228EBCB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66CA4CE82FA4F06000C112DB /* Production.xcconfig in Resources */,
+				66CA4CE62FA4F04100C112DB /* Development.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		66CA4CED2FA4F16600C112DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66CA4CEE2FA4F16600C112DB /* AppDependencyContainer.swift in Sources */,
+				66CA4CEF2FA4F16600C112DB /* CryptoCoinsApp.swift in Sources */,
+				66CA4CF02FA4F16600C112DB /* DatabaseService.swift in Sources */,
+				66CA4CF12FA4F16600C112DB /* CoinEntity.swift in Sources */,
+				66CA4CF22FA4F16600C112DB /* APIClient.swift in Sources */,
+				66CA4CF32FA4F16600C112DB /* Constants.swift in Sources */,
+				66CA4CF42FA4F16600C112DB /* AppConfig.swift in Sources */,
+				66CA4CF52FA4F16600C112DB /* CoinRepository.swift in Sources */,
+				66CA4CF62FA4F16600C112DB /* Coin.swift in Sources */,
+				66CA4CF72FA4F16600C112DB /* CoinUseCases.swift in Sources */,
+				66CA4CF82FA4F16600C112DB /* CoinListView.swift in Sources */,
+				66CA4CF92FA4F16600C112DB /* CoinRow.swift in Sources */,
+				66CA4CFA2FA4F16600C112DB /* FilterViews.swift in Sources */,
+				66CA4CFB2FA4F16600C112DB /* SearchBar.swift in Sources */,
+				66CA4CFC2FA4F16600C112DB /* CoinListViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E7209FB05162B7572F88D05E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,6 +340,7 @@
 				66CA4CE22FA4B5FE00C112DB /* CoinEntity.swift in Sources */,
 				9E2793E1179D5CCA5ACD5679 /* APIClient.swift in Sources */,
 				66CA4CE42FA4C96300C112DB /* Constants.swift in Sources */,
+				66CA4CEB2FA4F0FA00C112DB /* AppConfig.swift in Sources */,
 				01D2C5F687B376C2FBA573E0 /* CoinRepository.swift in Sources */,
 				533C88824EBAC47981FE67CB /* Coin.swift in Sources */,
 				EA291223799E6E16FCE4B9AF /* CoinUseCases.swift in Sources */,
@@ -266,6 +357,7 @@
 /* Begin XCBuildConfiguration section */
 		4DC7B479A29173674AFD7BAC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA4CE72FA4F06000C112DB /* Production.xcconfig */;
 			buildSettings = {
 				ASSSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,6 +366,7 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoCoins-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -290,8 +383,9 @@
 			};
 			name = Release;
 		};
-		683105B965893FCC643C4ECF /* Debug */ = {
+		66CA4D022FA4F16600C112DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA4CE52FA4F04100C112DB /* Development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -300,6 +394,65 @@
 				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoCoins copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoCoins-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CryptoCoins.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66CA4D032FA4F16600C112DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA4CE52FA4F04100C112DB /* Development.xcconfig */;
+			buildSettings = {
+				ASSSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoCoins copy-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CryptoCoins-Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dev.CryptoCoins.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		683105B965893FCC643C4ECF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66CA4CE72FA4F06000C112DB /* Production.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CryptoCoins-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -409,6 +562,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		66CA4D012FA4F16600C112DB /* Build configuration list for PBXNativeTarget "CryptoCoins-Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66CA4D022FA4F16600C112DB /* Debug */,
+				66CA4D032FA4F16600C112DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		88B610D245C48FE080C8F979 /* Build configuration list for PBXNativeTarget "CryptoCoins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

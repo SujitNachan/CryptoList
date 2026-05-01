@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E301BA9A-DA98-49DE-BDC7-142941BCD589"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1943ACBF-136A-4F9B-B5C6-7FB73A382AD8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Data/Network/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchCoins()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1943ACBF-136A-4F9B-B5C6-7FB73A382AD8 - 69fd2f0d3a9238c4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoCoins.APIClient.fetchCoins() async throws -&gt; Swift.Array&lt;CryptoCoins.CoinDTO&gt;"
+                  moduleName = "CryptoCoins.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshalchemate/Downloads/CryptoCoinsFixed/Data/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39">
+               </Location>
+               <Location
+                  uuid = "1943ACBF-136A-4F9B-B5C6-7FB73A382AD8 - 3d618bedb67fbd7b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for CryptoCoins_Dev.APIClient.fetchCoins() async throws -&gt; Swift.Array&lt;CryptoCoins_Dev.CoinDTO&gt;"
+                  moduleName = "CryptoCoins-Dev.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harshalchemate/Downloads/CryptoCoinsFixed/Data/Network/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

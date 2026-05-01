@@ -1,0 +1,4 @@
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+BASE_URL = api.jsonbin.io/v3/b/69f046e8856a6821897f1741

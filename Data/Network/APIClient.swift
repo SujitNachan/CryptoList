@@ -29,7 +29,7 @@ enum APIError: LocalizedError {
 final class APIClient: APIClientProtocol {
 
     private let session: URLSession
-    private let baseURL = "https://api.jsonbin.io/v3/b/69f046e8856a6821897f1741"
+    private let baseURL = AppConfig.baseURL
 
     init(session: URLSession = .shared) {
         self.session = session

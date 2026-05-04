@@ -64,20 +64,27 @@ struct CoinListView: View {
             .navigationBarTitleDisplayMode(.large)
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        showFilterSheet = true
-                    } label: {
-                        Label(Strings.CoinList.filterLabel, systemImage: Strings.Icons.filterIcon)
-                            .symbolVariant(viewModel.activeFilterCount > 0 ? .fill : .none)
-                    }
-                    .overlay(alignment: .topTrailing) {
-                        if viewModel.activeFilterCount > 0 {
-                            Text("\(viewModel.activeFilterCount)")
-                                .font(.system(size: 10, weight: .bold))
-                                .foregroundStyle(.white)
-                                .frame(width: 16, height: 16)
-                                .background(.red, in: Circle())
-                                .offset(x: 6, y: -6)
+                    HStack {
+                        Button {
+                            showFilterSheet = true
+                        } label: {
+                            Label(Strings.CoinList.filterLabel, systemImage: Strings.Icons.filterIcon)
+                                .symbolVariant(viewModel.activeFilterCount > 0 ? .fill : .none)
+                        }
+                        .overlay(alignment: .topTrailing) {
+                            if viewModel.activeFilterCount > 0 {
+                                Text("\(viewModel.activeFilterCount)")
+                                    .font(.system(size: 10, weight: .bold))
+                                    .foregroundStyle(.white)
+                                    .frame(width: 16, height: 16)
+                                    .background(.red, in: Circle())
+                                    .offset(x: 6, y: -6)
+                            }
+                        }
+                        Button {
+                            viewModel.toggleSortOrder()
+                        } label: {
+                            Label("Sort", systemImage: "arrow.up.arrow.down")
                         }
                     }
                 }

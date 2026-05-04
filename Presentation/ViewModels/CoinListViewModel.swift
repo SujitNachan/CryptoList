@@ -24,6 +24,7 @@ final class CoinListViewModel: ObservableObject {
 
     @Published var isRefreshing: Bool   = false
     @Published var lastUpdatedLabel: String? = nil
+    @Published var isAccending: Bool = true
 
     // MARK: Computed filtered lists
 
@@ -70,6 +71,10 @@ final class CoinListViewModel: ObservableObject {
         await fetchCoinsUseCase.refresh()
     }
 
+    func toggleSortOrder() {
+        isAccending.toggle()
+    }
+    
     func toggleWatchlist(for coin: Coin) {
         Task { await toggleWatchlistUseCase.execute(coinID: coin.id) }
     }
@@ -101,7 +106,7 @@ final class CoinListViewModel: ObservableObject {
     // MARK: - Filtering logic
 
     private func apply(filter: CoinFilter, search: String, to coins: [Coin]) -> [Coin] {
-        coins.filter { coin in
+        var result = coins.filter { coin in
             // Search
             if !search.isEmpty {
                 let q = search.lowercased()
@@ -116,5 +121,13 @@ final class CoinListViewModel: ObservableObject {
             if filter.showNewOnly, !coin.isNew { return false }
             return true
         }
+        result.sort { [weak self] coin1, coin2 in
+            guard let self = self else { return false }
+            if self.isAccending {
+                return coin1.name < coin2.name
+            }
+            return coin1.name > coin2.name
+        }
+        return result
     }
 }
